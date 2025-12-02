@@ -1,9 +1,9 @@
 {
     "appTitle": "Our Winter Love Story",
-    "partnerName": "My Love",
+    "partnerName": "Elina",
     "theme": {
-        "primaryColor": "#FFB6C1",
-        "secondaryColor": "#B0E0E6",
+        "primaryColor": "#8B0000",
+        "secondaryColor": "#DEB887",
         "accentColor": "#FFD700"
     },
     "playlist": {
@@ -13,306 +13,307 @@
     "levels": [
         {
             "id": 1,
-            "title": "Good Morning, Beautiful",
-            "storyText": "Welcome to our special day! Before our adventure begins, can you unscramble this special message I have for you?",
+            "title": "صبح بخیر (Good Morning)",
+            "storyText": "Hey Elina! Remember when you came up to me in Advanced Functions class near Christmas? That's when everything started. Today is our monthly anniversary, and I have something special planned. But first... prove you remember where this all began. Unscramble this:",
             "miniGame": {
                 "type": "word-scramble",
                 "data": {
-                    "scrambled": "I LOVE YOU",
-                    "answer": "I LOVE YOU",
-                    "hint": "Three special words we share every day"
+                    "scrambled": "VRAJIS CEAGLLITOE",
+                    "answer": "JARVIS COLLEGIATE",
+                    "hint": "Where we first talked... and where I fell for you"
                 }
             },
             "rewards": {
-                "dressCode": "Wear something cozy and cute - layers for warmth, comfortable shoes for walking",
+                "dressCode": "Wear something cozy - we'll be walking around downtown. And bring your terrible sense of direction 😏",
                 "time": "10:30 AM",
-                "message": "Get ready for an unforgettable day together! 💕"
+                "message": "It took me 8 months to text you 'میخوام ببرمت دیت' but today I planned this in advance. Let's go! 💕"
             }
         },
         {
             "id": 2,
             "title": "Brunch Journey",
-            "storyText": "Time for our first stop! Match these colors to discover where we're going for brunch.",
+            "storyText": "Our first date was at that French pastry café on Queen Street West after school. Today we're doing brunch in Kingston style. But I won't tell you where yet... Match these colors to unlock the location!",
             "miniGame": {
                 "type": "color-match",
                 "data": {
                     "pairs": [
                         {
-                            "color1": "#FF5733",
-                            "color2": "#FF5733",
-                            "label": "Passion"
+                            "color1": "#8B0000",
+                            "color2": "#8B0000",
+                            "label": "Your favorite color"
                         },
                         {
-                            "color1": "#33FF57",
-                            "color2": "#33FF57",
-                            "label": "Growth"
+                            "color1": "#DEB887",
+                            "color2": "#DEB887",
+                            "label": "Vintage vibes"
                         },
                         {
-                            "color1": "#3357FF",
-                            "color2": "#3357FF",
-                            "label": "Trust"
+                            "color1": "#4A5D23",
+                            "color2": "#4A5D23",
+                            "label": "Matcha latte"
                         },
                         {
-                            "color1": "#F3FF33",
-                            "color2": "#F3FF33",
-                            "label": "Joy"
+                            "color1": "#C19A6B",
+                            "color2": "#C19A6B",
+                            "label": "Caramel macchiato"
                         }
                     ]
                 }
             },
             "rewards": {
-                "location": "Your Favorite Brunch Spot",
-                "address": "123 Main Street, Kingston",
+                "location": "Brunch Spot",
+                "address": "Our reservation awaits!",
                 "time": "11:00 AM",
-                "message": "Can't wait to share pancakes and smiles with you!",
+                "message": "Let's get you some good coffee. You need it for finals week ☕",
                 "destination": {
                     "lat": 44.22829484074759,
                     "lng": -76.48025383993279,
                     "arrivalRadius": 25
                 },
                 "navigation": {
-                    "startMessage": "Your next surprise awaits... but I won't tell you where! 😏",
-                    "arrivalMessage": "You found it! Time for brunch! 🥞"
+                    "startMessage": "Time to test those navigation skills... or lack thereof 😏 Follow the GPS!",
+                    "arrivalMessage": "You made it without getting lost! I'm impressed 🎉"
                 }
             }
         },
         {
             "id": 3,
             "title": "Downtown Exploration",
-            "storyText": "Let's explore together! Find and photograph these special things around downtown.",
+            "storyText": "Remember all those times you took a wrong turn and we made jokes about it later? Well, today YOU'RE the navigator through downtown Kingston. Find and photograph these things:",
             "miniGame": {
                 "type": "photo-hunt",
                 "data": {
                     "items": [
-                        "A red door",
-                        "Something that makes us laugh",
-                        "The most 'Kingston' thing you see",
-                        "A heart shape"
+                        "A red door (your favorite color!)",
+                        "A goat or cat (your favorite animals... if you can find one in downtown lol)",
+                        "Something vintage (like your style)",
+                        "Something that would make a good study spot for us"
                     ]
                 }
             },
             "rewards": {
-                "message": "Your adventurous spirit is one of the things I love most about you.",
-                "nextHint": "Something vintage awaits..."
+                "message": "You know what I love? When you call me when you need help or when you're crashing out. It makes me feel like I matter. And you always will matter to me. 💙",
+                "nextHint": "Something old-school awaits... 📸"
             }
         },
         {
             "id": 4,
             "title": "Vintage Memories",
-            "storyText": "Let's test your memory! Can you match all these pairs?",
+            "storyText": "One moment I'll never forget: watching you on stage at your first dance performance. That's when I KNEW. Tomorrow I get to see you perform again, but today let's make more memories. Match these pairs!",
             "miniGame": {
                 "type": "memory-match",
                 "data": {
                     "images": [
-                        "❤️",
-                        "🌟",
-                        "🎨",
-                        "📸",
-                        "🎵",
-                        "☀️"
+                        "💃",
+                        "📚",
+                        "🎭",
+                        "🐐",
+                        "🐱",
+                        "☕"
                     ]
                 }
             },
             "rewards": {
-                "location": "Vintage Photo Booth",
-                "address": "163 Princess St, Kingston",
-                "activity": "Take at least 3 silly poses and 1 romantic one",
-                "message": "Every moment with you is a memory I treasure.",
+                "location": "End of the Thread Antique Emporium",
+                "address": "163 Princess St",
+                "activity": "Time for vintage photos! Take 3 silly ones (make the dumbest faces) and 1 romantic one. Go!",
+                "message": "Every moment with you is worth remembering. Even the dramatic ones, even the arguments, even the two breakups. All of it led us here. 💕",
                 "destination": {
                     "lat": 44.231779277665304,
                     "lng": -76.48052823215538,
                     "arrivalRadius": 25
                 },
                 "navigation": {
-                    "startMessage": "Something vintage awaits... follow the GPS! 📸",
-                    "arrivalMessage": "Perfect! Time for photos! 📷"
+                    "startMessage": "خانوم، بریم یه جای خاص... but you gotta find it first! 📸",
+                    "arrivalMessage": "You found the photo booth! Now let's be weird together 📷"
                 }
             }
         },
         {
             "id": 5,
-            "title": "Creative Time",
-            "storyText": "How well do you know us? Answer these questions about our relationship!",
+            "title": "How Well Do You Know Us?",
+            "storyText": "Okay Miss Competitive Academic... let's see how well you remember OUR story. این سوالا راحته، ولی ببینیم چقد حواست به ماست 😏",
             "miniGame": {
                 "type": "trivia",
                 "data": {
                     "questions": [
                         {
-                            "question": "What was our first date activity?",
+                            "question": "What class did we have together at Jarvis?",
                             "options": [
-                                "Coffee",
-                                "Dinner",
-                                "Walk in park",
-                                "Movies"
+                                "Advanced Functions",
+                                "Calculus",
+                                "Physics",
+                                "English"
                             ],
                             "correctIndex": 0
                         },
                         {
-                            "question": "What's our favorite activity together?",
+                            "question": "What month did you ask me to be your boyfriend?",
                             "options": [
-                                "Gaming",
-                                "Cooking",
-                                "Walking",
-                                "Watching shows"
+                                "July 2024",
+                                "August 2024",
+                                "June 2024",
+                                "September 2024"
+                            ],
+                            "correctIndex": 1
+                        },
+                        {
+                            "question": "Where was our first date?",
+                            "options": [
+                                "Starbucks",
+                                "French pastry café on Queen St W",
+                                "A restaurant",
+                                "The library"
+                            ],
+                            "correctIndex": 1
+                        },
+                        {
+                            "question": "What joke did I tell you about Queens? (خانوم ببخشید...)",
+                            "options": [
+                                "I forgot it tbh",
+                                "The library one",
+                                "Something inappropriate 😳",
+                                "You never told me a joke"
                             ],
                             "correctIndex": 2
                         },
                         {
-                            "question": "Where did we first meet?",
+                            "question": "What do you want to become?",
                             "options": [
-                                "Online",
-                                "Through friends",
-                                "At work",
-                                "Coffee shop"
+                                "A dancer",
+                                "A doctor (and you'll be the best)",
+                                "A teacher",
+                                "Undecided"
                             ],
-                            "correctIndex": 0
-                        },
-                        {
-                            "question": "What's my favorite thing about you?",
-                            "options": [
-                                "Your smile",
-                                "Your laugh",
-                                "Your kindness",
-                                "Everything"
-                            ],
-                            "correctIndex": 3
-                        },
-                        {
-                            "question": "What do we both love?",
-                            "options": [
-                                "Pizza",
-                                "Adventures",
-                                "Music",
-                                "All of the above"
-                            ],
-                            "correctIndex": 3
+                            "correctIndex": 1
                         }
                     ],
                     "passingScore": 4
                 }
             },
             "rewards": {
-                "location": "Creative Studio",
-                "address": "Your local creative space",
-                "activity": "Paint something special for each other!",
-                "message": "You know me better than anyone, and I love that about us."
+                "location": "Crock A Doodle Kingston",
+                "address": "Pottery painting studio",
+                "activity": "Let's paint mugs for each other! Make mine embarrassing please 😂",
+                "message": "You care so much about your grades and your future. I'm here in Kingston to support you through finals, through dance, through everything. You got this, Dr. Elina (future title 😉)"
             }
         },
         {
             "id": 6,
             "title": "Golden Hour",
-            "storyText": "Let's create a silly story together! Fill in the blanks with whatever comes to mind.",
+            "storyText": "Since August, we've been in the healthiest relationship we've ever had. No drama, just us. Let's create a silly story about our future. Fill in the blanks:",
             "miniGame": {
                 "type": "madlibs",
                 "data": {
-                    "template": "Once upon a {{0}}, we went to the {{1}} park and saw a {{2}} {{3}}. It was wearing a {{4}} and singing about {{5}}. We laughed so hard that we nearly {{6}}! That's when I realized you're my favorite {{7}} in the whole {{8}}.",
+                    "template": "In 5 years, Elina will be a {{0}} doctor specializing in {{1}}. Erfan will still be a {{2}} software engineer who {{3}} every morning. We'll live in a {{4}} apartment with {{5}} goats and {{6}} cats. Every weekend we'll {{7}} and argue about {{8}}. Our biggest problem will be that Elina still can't {{9}} without Google Maps, but that's okay because I love her anyway. ❤️",
                     "prompts": [
-                        "time of day",
                         "adjective",
+                        "medical specialty",
                         "adjective",
-                        "animal",
-                        "clothing item",
-                        "noun",
                         "verb",
-                        "noun",
-                        "place"
+                        "adjective",
+                        "number",
+                        "number",
+                        "activity",
+                        "silly thing",
+                        "verb"
                     ]
                 }
             },
             "rewards": {
-                "location": "Waterfront / Springer Market Square",
-                "activity": "Take a selfie with the sunset",
-                "message": "Every sunset is better with you by my side."
+                "location": "Springer Market Square",
+                "activity": "Let's walk to the waterfront. Take a sunset selfie with me. (And try not to get us lost on the way there)",
+                "message": "Remember when we broke up twice? And then we found our way back? That's because we're meant to be. Even when it's hard, even when we argue, we choose each other. 💙"
             }
         },
         {
             "id": 7,
             "title": "Dinner Time",
-            "storyText": "One last quiz before our dinner! Let's see how well you remember our journey today.",
+            "storyText": "It's our monthly anniversary (2nd of the month gang!) and I know you're stressed about finals. Tonight is about YOU relaxing. But first, one last quiz about today:",
             "miniGame": {
                 "type": "trivia",
                 "data": {
                     "questions": [
                         {
-                            "question": "What time did we start our adventure?",
+                            "question": "What school did we go to together?",
                             "options": [
-                                "10:00 AM",
-                                "10:30 AM",
-                                "11:00 AM",
-                                "9:30 AM"
-                            ],
-                            "correctIndex": 1
-                        },
-                        {
-                            "question": "What was our first activity?",
-                            "options": [
-                                "Photo hunt",
-                                "Word scramble",
-                                "Trivia",
-                                "Mad libs"
-                            ],
-                            "correctIndex": 1
-                        },
-                        {
-                            "question": "How many photos did we take together?",
-                            "options": [
-                                "Too many to count!",
-                                "Just a few",
-                                "Exactly 4",
-                                "None"
+                                "Jarvis Collegiate",
+                                "Queens University",
+                                "Some random school",
+                                "I forgot already"
                             ],
                             "correctIndex": 0
                         },
                         {
-                            "question": "What was the best part of today?",
+                            "question": "What did I call you in Level 4?",
                             "options": [
-                                "The food",
-                                "The games",
-                                "Time with you",
-                                "Everything"
+                                "Nothing special",
+                                "My love",
+                                "خانوم",
+                                "I don't remember"
                             ],
-                            "correctIndex": 3
+                            "correctIndex": 2
                         },
                         {
-                            "question": "What's next for us?",
+                            "question": "How many times have we broken up?",
                             "options": [
-                                "Dinner",
-                                "More adventures",
-                                "Building memories",
-                                "All of the above"
+                                "Never",
+                                "Once",
+                                "Twice (but we're stronger now)",
+                                "Too many"
                             ],
-                            "correctIndex": 3
+                            "correctIndex": 2
+                        },
+                        {
+                            "question": "What's my favorite thing about you?",
+                            "options": [
+                                "Your smile",
+                                "When you call me when you need me",
+                                "Your dancing",
+                                "Everything"
+                            ],
+                            "correctIndex": 1
+                        },
+                        {
+                            "question": "What am I here for this weekend?",
+                            "options": [
+                                "Just visiting",
+                                "Your dance performance tomorrow",
+                                "To annoy you",
+                                "To study"
+                            ],
+                            "correctIndex": 1
                         }
                     ],
                     "passingScore": 4
                 }
             },
             "rewards": {
-                "location": "Our Special Dinner Spot",
-                "address": "TBD - A surprise!",
+                "location": "Our Dinner Spot",
+                "address": "Trust me, you'll love it",
                 "time": "7:00 PM",
-                "message": "This day has been perfect, just like you.",
+                "message": "You're gonna crush your finals. You're gonna kill it in your performance tomorrow. And I'm gonna be there cheering for you. همیشه 💙",
                 "destination": {
                     "lat": 44.23074177193253,
                     "lng": -76.48106764753652,
                     "arrivalRadius": 25
                 },
                 "navigation": {
-                    "startMessage": "Time for our romantic dinner... follow me! 🍽️",
-                    "arrivalMessage": "We're here! Let's celebrate our day together! 🥂"
+                    "startMessage": "Last stop! Follow me to dinner... and try to remember how to get back 😂",
+                    "arrivalMessage": "We're here! Time to celebrate us 🥂"
                 }
             }
         },
         {
             "id": 8,
-            "title": "Our Memory Book",
-            "storyText": "What an incredible journey we've had today! From the morning excitement to the sunset moments, every second with you has been magical. You make ordinary moments extraordinary, and I'm so grateful for every laugh, every photo, and every memory we created together. Here's to many more adventures, my love. Thank you for being you, for being us. I love you more than words can express. 💕✨",
+            "title": "دفترچه خاطرات ما (Our Memory Book)",
+            "storyText": "Elina,\n\nFrom that day you came up to me in Advanced Functions to today in Kingston, it's been a journey. Eight months to tell you I liked you, two dates before we stopped, a summer of phone calls from Spain, and then August 2nd when you asked me to be your boyfriend.\n\nWe've had drama. We've had arguments. We broke up twice. But every single time, we found our way back to each other. And since August, we've been better than ever.\n\nI'm here in Kingston studying with you at Queens library (even though I go to Waterloo). I'm here to watch you dance tomorrow. I'm here because when you crash out or need help, you call me. And that makes me the happiest person alive.\n\nYou're going to be an incredible doctor. You're already an incredible dancer. And you're the most competitive, driven, talented person I know. \n\nThis date is my way of saying: take a break from finals stress. You deserve to relax. You deserve to be celebrated. You deserve everything.\n\nمن عاشقتم. From Jarvis to Queens, from Toronto to Kingston, from August 2nd to forever.\n\nYours always,\nErfan\n\nP.S. - Yes, you still suck at navigation. No, I don't care. I'll always help you find your way. 😂💙",
             "miniGame": null,
             "rewards": {
                 "type": "memory-book",
                 "includePlaylist": true,
                 "includeAllPhotos": true,
-                "finalMessage": "Until our next adventure... I love you! 💖"
+                "finalMessage": "تا ماجراجویی بعدی... دوستت دارم! 💖 (Until the next adventure... I love you!)"
             }
         }
     ]
