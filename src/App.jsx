@@ -97,7 +97,7 @@ function App() {
             {/* Progress Bar */}
             <div className="max-w-md mx-auto">
               <ProgressBar
-                current={progress.currentLevel}
+                current={progress.completedLevels.length}
                 total={config.levels.length}
               />
             </div>

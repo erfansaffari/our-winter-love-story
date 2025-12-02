@@ -7,7 +7,7 @@ const ProgressBar = ({ current, total, className = '' }) => {
         <div className={`w-full ${className}`}>
             <div className="flex justify-between items-center mb-2">
                 <span className="text-sm font-medium text-dark-text">
-                    Level {current} of {total}
+                    {current} of {total} levels completed
                 </span>
                 <span className="text-sm font-medium text-romantic-pink">
                     {Math.round(percentage)}% Complete
@@ -27,8 +27,8 @@ const ProgressBar = ({ current, total, className = '' }) => {
                     <div
                         key={level}
                         className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold transition-all duration-300 ${level <= current
-                                ? 'bg-romantic-pink text-white'
-                                : 'bg-gray-200 text-gray-500'
+                            ? 'bg-romantic-pink text-white'
+                            : 'bg-gray-200 text-gray-500'
                             }`}
                     >
                         {level}
