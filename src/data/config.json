@@ -119,8 +119,8 @@
                 "activity": "Take at least 3 silly poses and 1 romantic one",
                 "message": "Every moment with you is a memory I treasure.",
                 "destination": {
-                    "lat": 44.2298,
-                    "lng": -76.4810,
+                    "lat": 44.231779277665304,
+                    "lng": -76.48052823215538,
                     "arrivalRadius": 25
                 },
                 "navigation": {
@@ -291,7 +291,16 @@
                 "location": "Our Special Dinner Spot",
                 "address": "TBD - A surprise!",
                 "time": "7:00 PM",
-                "message": "This day has been perfect, just like you."
+                "message": "This day has been perfect, just like you.",
+                "destination": {
+                    "lat": 44.23074177193253,
+                    "lng": -76.48106764753652,
+                    "arrivalRadius": 25
+                },
+                "navigation": {
+                    "startMessage": "Time for our romantic dinner... follow me! 🍽️",
+                    "arrivalMessage": "We're here! Let's celebrate our day together! 🥂"
+                }
             }
         },
         {
