@@ -1,0 +1,292 @@
+{
+    "appTitle": "Our Winter Love Story",
+    "partnerName": "My Love",
+    "theme": {
+        "primaryColor": "#FFB6C1",
+        "secondaryColor": "#B0E0E6",
+        "accentColor": "#FFD700"
+    },
+    "playlist": {
+        "type": "spotify",
+        "embedUrl": ""
+    },
+    "levels": [
+        {
+            "id": 1,
+            "title": "Good Morning, Beautiful",
+            "storyText": "Welcome to our special day! Before our adventure begins, can you unscramble this special message I have for you?",
+            "miniGame": {
+                "type": "word-scramble",
+                "data": {
+                    "scrambled": "I LOVE YOU",
+                    "answer": "I LOVE YOU",
+                    "hint": "Three special words we share every day"
+                }
+            },
+            "rewards": {
+                "dressCode": "Wear something cozy and cute - layers for warmth, comfortable shoes for walking",
+                "time": "10:30 AM",
+                "message": "Get ready for an unforgettable day together! 💕"
+            }
+        },
+        {
+            "id": 2,
+            "title": "Brunch Journey",
+            "storyText": "Time for our first stop! Match these colors to discover where we're going for brunch.",
+            "miniGame": {
+                "type": "color-match",
+                "data": {
+                    "pairs": [
+                        {
+                            "color1": "#FF5733",
+                            "color2": "#FF5733",
+                            "label": "Passion"
+                        },
+                        {
+                            "color1": "#33FF57",
+                            "color2": "#33FF57",
+                            "label": "Growth"
+                        },
+                        {
+                            "color1": "#3357FF",
+                            "color2": "#3357FF",
+                            "label": "Trust"
+                        },
+                        {
+                            "color1": "#F3FF33",
+                            "color2": "#F3FF33",
+                            "label": "Joy"
+                        }
+                    ]
+                }
+            },
+            "rewards": {
+                "location": "Your Favorite Brunch Spot",
+                "address": "123 Main Street, Kingston",
+                "time": "11:00 AM",
+                "message": "Can't wait to share pancakes and smiles with you!"
+            }
+        },
+        {
+            "id": 3,
+            "title": "Downtown Exploration",
+            "storyText": "Let's explore together! Find and photograph these special things around downtown.",
+            "miniGame": {
+                "type": "photo-hunt",
+                "data": {
+                    "items": [
+                        "A red door",
+                        "Something that makes us laugh",
+                        "The most 'Kingston' thing you see",
+                        "A heart shape"
+                    ]
+                }
+            },
+            "rewards": {
+                "message": "Your adventurous spirit is one of the things I love most about you.",
+                "nextHint": "Something vintage awaits..."
+            }
+        },
+        {
+            "id": 4,
+            "title": "Vintage Memories",
+            "storyText": "Let's test your memory! Can you match all these pairs?",
+            "miniGame": {
+                "type": "memory-match",
+                "data": {
+                    "images": [
+                        "❤️",
+                        "🌟",
+                        "🎨",
+                        "📸",
+                        "🎵",
+                        "☀️"
+                    ]
+                }
+            },
+            "rewards": {
+                "location": "Vintage Photo Booth",
+                "address": "163 Princess St, Kingston",
+                "activity": "Take at least 3 silly poses and 1 romantic one",
+                "message": "Every moment with you is a memory I treasure."
+            }
+        },
+        {
+            "id": 5,
+            "title": "Creative Time",
+            "storyText": "How well do you know us? Answer these questions about our relationship!",
+            "miniGame": {
+                "type": "trivia",
+                "data": {
+                    "questions": [
+                        {
+                            "question": "What was our first date activity?",
+                            "options": [
+                                "Coffee",
+                                "Dinner",
+                                "Walk in park",
+                                "Movies"
+                            ],
+                            "correctIndex": 0
+                        },
+                        {
+                            "question": "What's our favorite activity together?",
+                            "options": [
+                                "Gaming",
+                                "Cooking",
+                                "Walking",
+                                "Watching shows"
+                            ],
+                            "correctIndex": 2
+                        },
+                        {
+                            "question": "Where did we first meet?",
+                            "options": [
+                                "Online",
+                                "Through friends",
+                                "At work",
+                                "Coffee shop"
+                            ],
+                            "correctIndex": 0
+                        },
+                        {
+                            "question": "What's my favorite thing about you?",
+                            "options": [
+                                "Your smile",
+                                "Your laugh",
+                                "Your kindness",
+                                "Everything"
+                            ],
+                            "correctIndex": 3
+                        },
+                        {
+                            "question": "What do we both love?",
+                            "options": [
+                                "Pizza",
+                                "Adventures",
+                                "Music",
+                                "All of the above"
+                            ],
+                            "correctIndex": 3
+                        }
+                    ],
+                    "passingScore": 4
+                }
+            },
+            "rewards": {
+                "location": "Creative Studio",
+                "address": "Your local creative space",
+                "activity": "Paint something special for each other!",
+                "message": "You know me better than anyone, and I love that about us."
+            }
+        },
+        {
+            "id": 6,
+            "title": "Golden Hour",
+            "storyText": "Let's create a silly story together! Fill in the blanks with whatever comes to mind.",
+            "miniGame": {
+                "type": "madlibs",
+                "data": {
+                    "template": "Once upon a {{0}}, we went to the {{1}} park and saw a {{2}} {{3}}. It was wearing a {{4}} and singing about {{5}}. We laughed so hard that we nearly {{6}}! That's when I realized you're my favorite {{7}} in the whole {{8}}.",
+                    "prompts": [
+                        "time of day",
+                        "adjective",
+                        "adjective",
+                        "animal",
+                        "clothing item",
+                        "noun",
+                        "verb",
+                        "noun",
+                        "place"
+                    ]
+                }
+            },
+            "rewards": {
+                "location": "Waterfront / Springer Market Square",
+                "activity": "Take a selfie with the sunset",
+                "message": "Every sunset is better with you by my side."
+            }
+        },
+        {
+            "id": 7,
+            "title": "Dinner Time",
+            "storyText": "One last quiz before our dinner! Let's see how well you remember our journey today.",
+            "miniGame": {
+                "type": "trivia",
+                "data": {
+                    "questions": [
+                        {
+                            "question": "What time did we start our adventure?",
+                            "options": [
+                                "10:00 AM",
+                                "10:30 AM",
+                                "11:00 AM",
+                                "9:30 AM"
+                            ],
+                            "correctIndex": 1
+                        },
+                        {
+                            "question": "What was our first activity?",
+                            "options": [
+                                "Photo hunt",
+                                "Word scramble",
+                                "Trivia",
+                                "Mad libs"
+                            ],
+                            "correctIndex": 1
+                        },
+                        {
+                            "question": "How many photos did we take together?",
+                            "options": [
+                                "Too many to count!",
+                                "Just a few",
+                                "Exactly 4",
+                                "None"
+                            ],
+                            "correctIndex": 0
+                        },
+                        {
+                            "question": "What was the best part of today?",
+                            "options": [
+                                "The food",
+                                "The games",
+                                "Time with you",
+                                "Everything"
+                            ],
+                            "correctIndex": 3
+                        },
+                        {
+                            "question": "What's next for us?",
+                            "options": [
+                                "Dinner",
+                                "More adventures",
+                                "Building memories",
+                                "All of the above"
+                            ],
+                            "correctIndex": 3
+                        }
+                    ],
+                    "passingScore": 4
+                }
+            },
+            "rewards": {
+                "location": "Our Special Dinner Spot",
+                "address": "TBD - A surprise!",
+                "time": "7:00 PM",
+                "message": "This day has been perfect, just like you."
+            }
+        },
+        {
+            "id": 8,
+            "title": "Our Memory Book",
+            "storyText": "What an incredible journey we've had today! From the morning excitement to the sunset moments, every second with you has been magical. You make ordinary moments extraordinary, and I'm so grateful for every laugh, every photo, and every memory we created together. Here's to many more adventures, my love. Thank you for being you, for being us. I love you more than words can express. 💕✨",
+            "miniGame": null,
+            "rewards": {
+                "type": "memory-book",
+                "includePlaylist": true,
+                "includeAllPhotos": true,
+                "finalMessage": "Until our next adventure... I love you! 💖"
+            }
+        }
+    ]
+}
