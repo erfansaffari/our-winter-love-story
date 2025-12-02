@@ -134,7 +134,6 @@ const RewardScreen = ({ level, rewards, onContinue, onStartNavigation }) => {
                 </div>
             </div>
         </div>
-        </div >
     );
 };
 
