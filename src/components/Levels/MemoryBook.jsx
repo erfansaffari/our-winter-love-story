@@ -83,14 +83,15 @@ const MemoryBook = ({ config, onClose }) => {
                         </h2>
                         <div className="bg-white rounded-xl shadow-lg p-4">
                             <iframe
+                                style={{ borderRadius: '12px' }}
                                 src={config.playlist.embedUrl}
                                 width="100%"
                                 height="380"
                                 frameBorder="0"
-                                allowFullScreen
+                                allowFullScreen={true}
                                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                                 loading="lazy"
-                                title="Playlist"
+                                title="Our Soundtrack Playlist"
                             ></iframe>
                         </div>
                     </div>

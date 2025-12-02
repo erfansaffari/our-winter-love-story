@@ -8,7 +8,7 @@
     },
     "playlist": {
         "type": "spotify",
-        "embedUrl": ""
+        "embedUrl": "https://open.spotify.com/embed/playlist/6laDnN46NQ9uZxoiqrTHeq?utm_source=generator"
     },
     "levels": [
         {
@@ -66,8 +66,8 @@
                 "time": "11:00 AM",
                 "message": "Can't wait to share pancakes and smiles with you!",
                 "destination": {
-                    "lat": 44.2312,
-                    "lng": -76.4860,
+                    "lat": 44.22829484074759,
+                    "lng": -76.48025383993279,
                     "arrivalRadius": 25
                 },
                 "navigation": {
