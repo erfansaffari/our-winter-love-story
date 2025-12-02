@@ -64,7 +64,16 @@
                 "location": "Your Favorite Brunch Spot",
                 "address": "123 Main Street, Kingston",
                 "time": "11:00 AM",
-                "message": "Can't wait to share pancakes and smiles with you!"
+                "message": "Can't wait to share pancakes and smiles with you!",
+                "destination": {
+                    "lat": 44.2312,
+                    "lng": -76.4860,
+                    "arrivalRadius": 25
+                },
+                "navigation": {
+                    "startMessage": "Your next surprise awaits... but I won't tell you where! 😏",
+                    "arrivalMessage": "You found it! Time for brunch! 🥞"
+                }
             }
         },
         {
@@ -108,7 +117,16 @@
                 "location": "Vintage Photo Booth",
                 "address": "163 Princess St, Kingston",
                 "activity": "Take at least 3 silly poses and 1 romantic one",
-                "message": "Every moment with you is a memory I treasure."
+                "message": "Every moment with you is a memory I treasure.",
+                "destination": {
+                    "lat": 44.2298,
+                    "lng": -76.4810,
+                    "arrivalRadius": 25
+                },
+                "navigation": {
+                    "startMessage": "Something vintage awaits... follow the GPS! 📸",
+                    "arrivalMessage": "Perfect! Time for photos! 📷"
+                }
             }
         },
         {

@@ -6,12 +6,13 @@ import LevelCard from './components/Levels/LevelCard';
 import LevelScreen from './components/Levels/LevelScreen';
 import RewardScreen from './components/Levels/RewardScreen';
 import MemoryBook from './components/Levels/MemoryBook';
+import NavigationScreen from './components/Navigation/NavigationScreen';
 import './index.css';
 
 function App() {
   const [config] = useState(configData);
   const [progress, setProgress] = useState(loadProgress());
-  const [currentScreen, setCurrentScreen] = useState('home'); // 'home', 'level', 'reward', 'memorybook'
+  const [currentScreen, setCurrentScreen] = useState('home'); // 'home', 'level', 'reward', 'navigation', 'memorybook'
   const [selectedLevel, setSelectedLevel] = useState(null);
   const [gameResult, setGameResult] = useState(null);
 
@@ -62,6 +63,15 @@ function App() {
     setSelectedLevel(null);
     setGameResult(null);
     setCurrentScreen('home');
+  };
+
+  const handleStartNavigation = () => {
+    setCurrentScreen('navigation');
+  };
+
+  const handleNavigationArrival = () => {
+    // User arrived at destination, continue as normal
+    handleRewardContinue();
   };
 
   const handleBackToHome = () => {
@@ -147,6 +157,18 @@ function App() {
         level={selectedLevel}
         rewards={selectedLevel.rewards}
         onContinue={handleRewardContinue}
+        onStartNavigation={handleStartNavigation}
+      />
+    );
+  }
+
+  // Navigation Screen
+  if (currentScreen === 'navigation' && selectedLevel && selectedLevel.rewards.destination) {
+    return (
+      <NavigationScreen
+        destination={selectedLevel.rewards.destination}
+        onArrival={handleNavigationArrival}
+        onBack={() => setCurrentScreen('reward')}
       />
     );
   }
