@@ -37,10 +37,11 @@ const MemoryMatchTimed = ({ data, onComplete }) => {
 
     useEffect(() => {
         // Check if all cards are matched
-        if (matched.length === cards.length && cards.length > 0) {
+        // matched.length should equal the number of unique images (not total cards)
+        if (matched.length === data.images.length && matched.length > 0) {
             onComplete({ completed: true, moves, timeUsed: data.timeLimit - timeLeft });
         }
-    }, [matched, cards.length, onComplete, moves, timeLeft, data.timeLimit]);
+    }, [matched, data.images.length, onComplete, moves, timeLeft, data.timeLimit]);
 
     const handleCardClick = (index) => {
         if (!gameStarted) setGameStarted(true);
@@ -122,8 +123,8 @@ const MemoryMatchTimed = ({ data, onComplete }) => {
                         key={card.id}
                         onClick={() => handleCardClick(index)}
                         className={`aspect-square rounded-xl flex items-center justify-center text-4xl cursor-pointer transition-all duration-300 transform hover:scale-105 ${flipped.includes(index) || matched.includes(card.image)
-                                ? 'bg-gradient-to-br from-romantic-pink to-accent-gold'
-                                : 'bg-gradient-to-br from-gray-200 to-gray-300'
+                            ? 'bg-gradient-to-br from-romantic-pink to-accent-gold'
+                            : 'bg-gradient-to-br from-gray-200 to-gray-300'
                             }`}
                     >
                         {(flipped.includes(index) || matched.includes(card.image)) && card.image}
