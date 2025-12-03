@@ -31,7 +31,11 @@ function App() {
 
     // Save photos if any
     if (result.photos && result.photos.length > 0) {
-      savePhotos(selectedLevel.id, result.photos);
+      // Extract image strings from photo objects (new games return {image, caption, prompt})
+      const photoImages = result.photos.map(photo =>
+        typeof photo === 'string' ? photo : photo.image
+      );
+      savePhotos(selectedLevel.id, photoImages);
     }
 
     // Save story if it's mad libs

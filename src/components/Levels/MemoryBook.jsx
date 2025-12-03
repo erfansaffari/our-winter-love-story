@@ -109,33 +109,6 @@ const MemoryBook = ({ config, onClose }) => {
                     </div>
                 )}
 
-                {/* Stats */}
-                <div className="bg-white rounded-xl shadow-lg p-6 mb-8">
-                    <h3 className="text-2xl font-elegant text-center mb-4">
-                        Journey Stats
-                    </h3>
-                    <div className="grid grid-cols-3 gap-4 text-center">
-                        <div>
-                            <div className="text-3xl font-bold text-romantic-pink">
-                                {progress.completedLevels.length}
-                            </div>
-                            <div className="text-sm text-gray-600">Levels Completed</div>
-                        </div>
-                        <div>
-                            <div className="text-3xl font-bold text-winter-blue">
-                                {allPhotos.length}
-                            </div>
-                            <div className="text-sm text-gray-600">Photos Captured</div>
-                        </div>
-                        <div>
-                            <div className="text-3xl font-bold text-accent-gold">
-                                {progress.storyPoints?.length || 0}
-                            </div>
-                            <div className="text-sm text-gray-600">Stories Collected</div>
-                        </div>
-                    </div>
-                </div>
-
                 {/* Close Button */}
                 {onClose && (
                     <Button onClick={onClose} variant="primary" className="w-full">
