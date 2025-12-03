@@ -5,33 +5,51 @@
  * @returns {boolean} Whether game was completed successfully
  */
 export const isGameCompleted = (gameType, result) => {
-    // Handle Level 8 or any level with no mini-game
-    if (!gameType && result.completed === true) {
-        return true;
-    }
+    if (!result) return false;
 
     switch (gameType) {
         case 'word-scramble':
-            return result.correct === true;
+            return result.completed === true;
 
         case 'photo-hunt':
-            return result.itemsFound && result.itemsFound.every((item) => item);
+            return result.photos && result.photos.length > 0;
 
         case 'memory-match':
-            return result.allMatched === true;
+            return result.completed === true;
 
         case 'trivia':
-            const passingScore = result.passingScore || 4;
-            return result.score >= passingScore;
+            return result.score !== undefined && result.passed === true;
 
         case 'madlibs':
             return result.completed === true;
 
         case 'color-match':
-            return result.allMatched === true;
+            return result.completed === true;
+
+        // NEW GAME TYPES
+        case 'direction-puzzle':
+            return result.completed === true;
+
+        case 'memory-match-timed':
+            return result.completed === true;
+
+        case 'photo-caption':
+            return result.completed === true && result.photos && result.photos.length > 0;
+
+        case 'trivia-hard':
+            return result.completed === true;
+
+        case 'movie-guess':
+            return result.completed === true;
+
+        case 'speed-trivia':
+            return result.completed === true;
+
+        case 'final-photos':
+            return result.completed === true && result.photos && result.photos.length > 0;
 
         default:
-            return false;
+            return result.completed === true;
     }
 };
 
