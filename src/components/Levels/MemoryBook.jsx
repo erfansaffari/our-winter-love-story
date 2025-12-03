@@ -98,12 +98,12 @@ const MemoryBook = ({ config, onClose }) => {
                 )}
 
                 {/* Final Message */}
-                {config.levels?.[7]?.rewards?.finalMessage && (
+                {config.levels?.[8]?.rewards?.finalMessage && (
                     <div className="bg-gradient-to-r from-romantic-pink/20 to-accent-gold/20 rounded-3xl shadow-xl p-8 mb-8">
                         <div className="text-center">
                             <span className="text-6xl mb-4 block">🌟</span>
                             <p className="text-2xl font-elegant text-dark-text mb-4">
-                                {config.levels[7].rewards.finalMessage}
+                                {config.levels[8].rewards.finalMessage}
                             </p>
                         </div>
                     </div>
