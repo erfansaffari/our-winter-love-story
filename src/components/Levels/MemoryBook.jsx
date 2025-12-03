@@ -20,13 +20,13 @@ const MemoryBook = ({ config, onClose }) => {
                 </div>
 
                 {/* Final Letter */}
-                {config.levels?.[7]?.storyText && (
+                {config.levels?.[8]?.storyText && (
                     <div className="bg-white rounded-3xl shadow-xl p-8 mb-8">
                         <div className="text-center mb-6">
                             <span className="text-5xl">💌</span>
                         </div>
-                        <p className="text-lg leading-relaxed text-dark-text text-center font-clean">
-                            {config.levels[7].storyText}
+                        <p className="text-lg leading-relaxed text-dark-text whitespace-pre-line font-clean">
+                            {config.levels[8].storyText}
                         </p>
                     </div>
                 )}
