@@ -7,6 +7,13 @@ import MemoryMatch from '../MiniGames/MemoryMatch';
 import Trivia from '../MiniGames/Trivia';
 import MadLibs from '../MiniGames/MadLibs';
 import ColorMatch from '../MiniGames/ColorMatch';
+import DirectionPuzzle from '../MiniGames/DirectionPuzzle';
+import MemoryMatchTimed from '../MiniGames/MemoryMatchTimed';
+import PhotoCaption from '../MiniGames/PhotoCaption';
+import TriviaHard from '../MiniGames/TriviaHard';
+import MovieGuess from '../MiniGames/MovieGuess';
+import SpeedTrivia from '../MiniGames/SpeedTrivia';
+import FinalPhotos from '../MiniGames/FinalPhotos';
 import { isGameCompleted } from '../../utils/levelLogic';
 
 const LevelScreen = ({ level, onComplete, onBack }) => {
@@ -77,8 +84,29 @@ const LevelScreen = ({ level, onComplete, onBack }) => {
                     />
                 );
 
+            case 'direction-puzzle':
+                return <DirectionPuzzle data={data} onComplete={handleGameComplete} />;
+
+            case 'memory-match-timed':
+                return <MemoryMatchTimed data={data} onComplete={handleGameComplete} />;
+
+            case 'photo-caption':
+                return <PhotoCaption data={data} onComplete={handleGameComplete} />;
+
+            case 'trivia-hard':
+                return <TriviaHard data={data} onComplete={handleGameComplete} />;
+
+            case 'movie-guess':
+                return <MovieGuess data={data} onComplete={handleGameComplete} />;
+
+            case 'speed-trivia':
+                return <SpeedTrivia data={data} onComplete={handleGameComplete} />;
+
+            case 'final-photos':
+                return <FinalPhotos data={data} onComplete={handleGameComplete} />;
+
             default:
-                return <p>Unknown game type</p>;
+                return <p className="text-center text-gray-600">Unknown game type: {type}</p>;
         }
     };
 

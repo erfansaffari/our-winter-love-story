@@ -45,8 +45,8 @@ export const completeLevel = (levelNumber) => {
     const progress = loadProgress();
     if (!progress.completedLevels.includes(levelNumber)) {
         progress.completedLevels.push(levelNumber);
-        // Cap currentLevel at 8 (total levels) to avoid "Level 9 of 8"
-        progress.currentLevel = Math.min(levelNumber + 1, 8);
+        // Cap currentLevel at 9 (total levels) to avoid "Level 10 of 9"
+        progress.currentLevel = Math.min(levelNumber + 1, 9);
     }
     saveProgress(progress);
     return progress;
