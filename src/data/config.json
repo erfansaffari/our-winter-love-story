@@ -235,15 +235,15 @@
             "miniGame": {
                 "type": "movie-guess",
                 "data": {
-                    "movieTitle": "The Price of Desire",
-                    "poster": "https://m.media-amazon.com/images/M/MV5BZGE4ZjBmMzQtYWIxNC00NWQ3LWFiZDMtOTIxZWM4ZDc5ZTVhXkEyXkFqcGc@._V1_.jpg",
+                    "movieTitle": "Atashbas",
+                    "poster": "https://example.com/atashbas-poster.jpg",
                     "clues": [
-                        "It's a biographical drama from 2015",
-                        "The film focuses on a pioneering female architect and designer",
-                        "It explores the relationship between creativity and jealousy",
-                        "The story features Eileen Gray and her iconic modernist furniture"
+                        "It's a 2006 Iranian romantic comedy",
+                        "The story is about a married couple who want to divorce",
+                        "They visit a psychiatrist who tells them to confront their 'inner child'",
+                        "The title means 'Cease Fire' and stars Mohammad Reza Golzar and Mahnaz Afshar"
                     ],
-                    "hint": "It starts with 'The Price' and is about design passion"
+                    "hint": "Persian title: آتش‌بس (sounds like 'Atash-bas')"
                 }
             },
             "rewards": {
@@ -303,7 +303,7 @@
                         {
                             "question": "What movie did we just watch?",
                             "options": [
-                                "The Price of Desire",
+                                "Atashbas (Cease Fire)",
                                 "Something else",
                                 "I forgot already",
                                 "We didn't watch one"
