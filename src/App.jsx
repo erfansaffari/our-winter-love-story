@@ -168,9 +168,14 @@ function App() {
 
   // Navigation Screen
   if (currentScreen === 'navigation' && selectedLevel && selectedLevel.rewards.destination) {
+    const destination = {
+      ...selectedLevel.rewards.destination,
+      arrivalMessage: selectedLevel.rewards.navigation?.arrivalMessage,
+    };
+
     return (
       <NavigationScreen
-        destination={selectedLevel.rewards.destination}
+        destination={destination}
         onArrival={handleNavigationArrival}
         onBack={() => setCurrentScreen('reward')}
       />
