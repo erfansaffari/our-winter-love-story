@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import Button from '../UI/Button';
-import { compressAndConvertImage } from '../../utils/imageCompression';
+import { compressImage } from '../../utils/imageCompression';
 
 const FinalPhotos = ({ data, onComplete }) => {
     const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
@@ -19,7 +19,7 @@ const FinalPhotos = ({ data, onComplete }) => {
 
         setUploading(true);
         try {
-            const compressed = await compressAndConvertImage(file);
+            const compressed = await compressImage(file);
             setPhotos([...photos, { image: compressed, caption: '', prompt: currentPrompt.prompt }]);
         } catch (error) {
             console.error('Error compressing image:', error);
@@ -106,10 +106,10 @@ const FinalPhotos = ({ data, onComplete }) => {
                             <div
                                 key={index}
                                 className={`h-2 w-12 rounded-full ${index < currentPhotoIndex
-                                        ? 'bg-accent-gold'
-                                        : index === currentPhotoIndex
-                                            ? 'bg-romantic-pink'
-                                            : 'bg-gray-200'
+                                    ? 'bg-accent-gold'
+                                    : index === currentPhotoIndex
+                                        ? 'bg-romantic-pink'
+                                        : 'bg-gray-200'
                                     }`}
                             />
                         ))}
