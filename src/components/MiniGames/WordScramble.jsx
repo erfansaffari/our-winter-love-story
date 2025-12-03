@@ -12,7 +12,7 @@ const WordScramble = ({ scrambled, answer, hint, onComplete }) => {
         const isCorrect = userAnswer.toLowerCase().trim() === answer.toLowerCase().trim();
 
         if (isCorrect) {
-            onComplete({ correct: true, attempts: attempts + 1 });
+            onComplete({ completed: true, correct: true, attempts: attempts + 1 });
         } else {
             setIsWrong(true);
             setAttempts(attempts + 1);
