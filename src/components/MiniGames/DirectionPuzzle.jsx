@@ -1,4 +1,4 @@
-import { useState } from 'prop-types';
+import { useState } from 'react';
 import PropTypes from 'prop-types';
 import Button from '../UI/Button';
 
@@ -79,8 +79,8 @@ const DirectionPuzzle = ({ data, onComplete }) => {
                         <div
                             key={index}
                             className={`h-2 flex-1 mx-1 rounded-full transition-all ${index <= currentClueIndex
-                                    ? 'bg-romantic-pink'
-                                    : 'bg-gray-200'
+                                ? 'bg-romantic-pink'
+                                : 'bg-gray-200'
                                 }`}
                         />
                     ))}
